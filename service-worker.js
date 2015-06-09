@@ -3,10 +3,10 @@
 self.addEventListener('push', function(event) {
   console.log('Received a push message', event);
 
-  var title = 'Yay a message.';
-  var body = 'We have received a push message.';
-  var icon = '/images/icon-192x192.png';
-  var tag = 'simple-push-demo-notification-tag';
+  var title = 'MINE';
+  var body = 'MINE BY 3Mに新着記事が増えたよ';
+  var icon = '/images/favicon.ico';
+  var tag = 'mine by 3m';
 
   event.waitUntil(
     self.registration.showNotification(title, {

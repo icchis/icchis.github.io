@@ -80,7 +80,7 @@ function unsubscribe() {
           // to allow the user to subscribe to push
           isPushEnabled = false;
           pushButton.disabled = false;
-          pushButton.textContent = 'Enable Push Messages';
+          pushButton.textContent = 'プッシュ通知有効';
           return;
         }
 
@@ -91,7 +91,7 @@ function unsubscribe() {
         // We have a subcription, so call unsubscribe on it
         pushSubscription.unsubscribe().then(function(successful) {
           pushButton.disabled = false;
-          pushButton.textContent = 'Enable Push Messages';
+          pushButton.textContent = 'プッシュ通知有効';
           isPushEnabled = false;
         }).catch(function(e) {
           // We failed to unsubscribe, this can lead to
