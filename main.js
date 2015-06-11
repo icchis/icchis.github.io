@@ -91,7 +91,7 @@ function unsubscribe() {
         // We have a subcription, so call unsubscribe on it
         pushSubscription.unsubscribe().then(function(successful) {
           pushButton.disabled = false;
-          pushButton.textContent = 'プッシュ通知有効';
+          pushButton.textContent = 'プッチュ通知を有効にする';
           isPushEnabled = false;
         }).catch(function(e) {
           // We failed to unsubscribe, this can lead to
@@ -120,7 +120,7 @@ function subscribe() {
       .then(function(subscription) {
         // The subscription was successful
         isPushEnabled = true;
-        pushButton.textContent = 'Disable Push Messages';
+        pushButton.textContent = 'プッチュ通知を無効にする';
         pushButton.disabled = false;
 
         // TODO: Send the subscription subscription.endpoint
