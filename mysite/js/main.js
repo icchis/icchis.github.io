@@ -56,9 +56,9 @@ $(document).ready(function(){
 
 $('#first').hover(function(){
     // $('#first_h').css('display', 'none');
-    $("#first_h", this).stop().animate({width: "100%",left:'0%',opacity:1},{queue:false,duration:300});
+    $("#first_h").animate({width: "100%",left:'0%',opacity:1},{queue:false,duration:300});
 }, function() {
-    $("#first_h", this).stop().animate({width: "0%",left:'-100%',opacity:0},{queue:false,duration:500});
+    $("#first_h").animate({width: "0%",left:'-100%',opacity:0},{queue:false,duration:500});
     // $('#first_h').css('display', 'none');
 });
 
