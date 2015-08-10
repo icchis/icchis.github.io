@@ -17,6 +17,35 @@ h1:hover{
 #c_third a:hover {
 	text-decoration: none;
 }
+.twitter {
+  display: block;
+  margin: 5rem auto;
+  position: absolute !important;
+  width: 10rem !important;
+  bottom: -10rem;
+  left: 50%;
+  margin-left: -5rem;
+  -webkit-transition: all .25s ease;
+     -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+       -o-transition: all .25s ease;
+          transition: all .25s ease;
+}
+.twitter img {
+  width: 100%;
+  border: 2px solid #FFF;
+  border-radius: 10px;
+  background: #fff;
+}
+
+@media screen and (max-width: 553px) {
+  .twitter {
+	  bottom: -4rem;
+	}
+	.twitter img {
+	  width: 80%;
+	}
+}
 
 @media screen and (min-device-width: 554px) and (max-device-width: 3024px) {
 	body  {
@@ -195,7 +224,7 @@ h1:hover{
 		position: absolute;
 		top: -10%;
 		width: 100%;
-		height: 110%;
+		height: 115%;
 		z-index: 0;
 		overflow:visible;
 	}
@@ -471,7 +500,7 @@ h1:hover{
 		position: absolute;
 		top: -10%;
 		width: 100%;
-		height: 110%;
+		height: 115%;
 		z-index: 0;
 		overflow:hidden;
 		/*-webkit-transform-style: preserve-3d;*/
