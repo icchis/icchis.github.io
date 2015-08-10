@@ -198,129 +198,6 @@ h1:hover{
 		height: 110%;
 		z-index: 0;
 		overflow:visible;
-		-webkit-transform-style: preserve-3d;
-		-webkit-perspective: 400;
-        -webkit-transform: translateZ( -100px );
-	}
-	.bg_content1{
-		position: absolute;
-		width: 45%;
-		height: 2%;
-		background: rgb(255, 121, 121);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot1 60s linear infinite;
-        animation: rot1 60s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content2{
-		position: absolute;
-		width: 43%;
-		height: 3%;
-		background: rgb(171, 227, 241);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot2 50s linear infinite;
-        animation: rot2 50s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content3{
-		position: absolute;
-		width: 50%;
-		height: 3%;
-		background: rgb(105, 108, 189);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot3 70s linear  infinite;
-        animation: rot3 70s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content4{
-		position: absolute;
-		width: 30%;
-		height: 3%;
-		background: rgb(252, 204, 119);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot4 80s linear infinite;
-        animation: rot4 80s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content5{
-		position: absolute;
-		width: 30%;
-		height: 3%;
-		background: rgb(125, 233, 147);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot5 90s linear infinite;
-        animation: rot5 90s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content6{
-		position: absolute;
-		width: 30%;
-		height: 3%;
-		background: rgb(33, 70, 165);
-		opacity: 0.4;
-		padding: 10px;
-	    -webkit-animation: rot6 90s linear infinite;
-        animation: rot6 90s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content7{
-		position: absolute;
-		width: 53%;
-		height: 3%;
-		background: rgb(217, 138, 236);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot7 90s linear infinite;
-        animation: rot7 90s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content8{
-		position: absolute;
-		width: 40%;
-		height: 6%;
-		background: rgb(124, 224, 119);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot8 70s ease infinite;
-        animation: rot8 70s ease infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content9{
-		position: absolute;
-		width: 33%;
-		height: 4%;
-		background: rgb(224, 255, 100);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot9 60s linear infinite;
-        animation: rot9 60s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content10{
-		position: absolute;
-		width: 36%;
-		height: 4%;
-		background: rgb(255, 126, 24);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot10 50s ease infinite;
-        animation: rot10 50s ease infinite;
-        z-index: -1;
-        overflow:hidden;
 	}
 	#c_first,#c_second,#c_third,#c_fourth{
 		width: 800px;
@@ -598,128 +475,8 @@ h1:hover{
 		z-index: 0;
 		overflow:hidden;
 		/*-webkit-transform-style: preserve-3d;*/
-		-webkit-perspective: 100;
+		/*-webkit-perspective: 100;*/
         /*-webkit-transform: translateZ( -100px );*/
-	}
-	.bg_content1{
-		position: absolute;
-		width: 75%;
-		height: 2%;
-		background: rgb(255, 121, 121);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot1 60s linear infinite;
-        animation: rot1 60s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content2{
-		position: absolute;
-		width: 75%;
-		height: 3%;
-		background: rgb(171, 227, 241);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot2 50s linear infinite;
-        animation: rot2 50s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content3{
-		position: absolute;
-		width:65%;
-		height: 3%;
-		background: rgb(105, 108, 189);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot3 70s linear  infinite;
-        animation: rot3 70s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content4{
-		position: absolute;
-		width: 73%;
-		height: 3%;
-		background: rgb(252, 204, 119);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot4 80s linear infinite;
-        animation: rot4 80s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content5{
-		position: absolute;
-		width: 4%;
-		height: 63%;
-		background: rgb(125, 233, 147);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot5 90s linear infinite;
-        animation: rot5 90s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content6{
-		position: absolute;
-		width: 43%;
-		height: 3%;
-		background: rgb(33, 70, 165);
-		opacity: 0.4;
-		padding: 10px;
-	    -webkit-animation: rot6 90s linear infinite;
-        animation: rot6 90s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content7{
-		position: absolute;
-		width: 64%;
-		height: 3%;
-		background: rgb(217, 138, 236);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot7 90s linear infinite;
-        animation: rot7 90s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content8{
-		position: absolute;
-		width: 74%;
-		height: 3%;
-		background: rgb(124, 224, 119);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot8 70s ease infinite;
-        animation: rot8 70s ease infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content9{
-		position: absolute;
-		width: 2%;
-		height: 64%;
-		background: rgb(224, 255, 100);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot9 60s linear infinite;
-        animation: rot9 60s linear infinite;
-        z-index: -1;
-        overflow:hidden;
-	}
-	.bg_content10{
-		position: absolute;
-		width: 72%;
-		height: 4%;
-		background: rgb(255, 126, 24);
-		opacity: 0.5;
-		padding: 10px;
-	    -webkit-animation: rot10 50s ease infinite;
-        animation: rot10 50s ease infinite;
-        z-index: -1;
-        overflow:hidden;
 	}
 	#c_first,#c_second,#c_third,#c_fourth{
 		width: 96% !important;
@@ -852,12 +609,16 @@ h1:hover{
 /******* SEVEN A (Arc) *******/
 .sevena .shape-container {
   animation: move-right 6s infinite cubic-bezier(.37,.55,.49,.67);
+  -webkit-animation: move-right 6s infinite cubic-bezier(.37,.55,.49,.67);
   position: absolute;
+  left: -webkit-calc(50% - 4em);
+  top: -webkit-calc(50% - 4em);
   left: calc(50% - 4em);
   top: calc(50% - 4em);
 }
 .sevena .shape {
   animation: bounce 6s infinite linear;
+  -webkit-animation: bounce 6s infinite linear;
   border-radius: 50%;
   position: relative;
   left: auto;
@@ -883,15 +644,22 @@ h1:hover{
 
 .sevenb .shape.a {
   animation: sevenb 3s infinite linear;
+  -webkit-animation: sevenb 3s infinite linear;
+  top: -webkit-calc(50% + 6em);
+  left: -webkit-calc(50% - 15em);
   top: calc(50% + 6em);
   left: calc(50% - 15em);
   transform-origin: 15em 50%;
+  -webkit-transform-origin: 15em 50%;
 }
 .sevenb .shape.b {
   animation: sevenb 6s infinite linear reverse;
+  -webkit-animation: sevenb 6s infinite linear reverse;
   background: #333;
   width: 2em;
   height: 2em;
+  left: -webkit-calc(50% - 1em);
+  top: -webkit-calc(50% + 5em);
   left: calc(50% - 1em);
   top: calc(50% + 5em);
 }
@@ -908,6 +676,8 @@ h1:hover{
   width: 4em;
   height: 4em;
   position: absolute;
+  top: -webkit-calc(50% - 2em);
+  left: -webkit-calc(50% - 2em);
   top: calc(50% - 2em);
   left: calc(50% - 2em);
 }
@@ -916,6 +686,12 @@ h1:hover{
 @keyframes sevenb {
   100% {
     transform: rotateZ(360deg);
+  }
+}
+
+@-webkit-keyframes sevenb {
+  100% {
+    -webkit-transform: rotateZ(360deg);
   }
 }
 
@@ -929,6 +705,20 @@ h1:hover{
   }
   90%, 100% {
     transform: translateX(20em);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes move-right {
+  0% {
+    -webkit-transform: translateX(-20em);
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  90%, 100% {
+    -webkit-transform: translateX(20em);
     opacity: 0;
   }
 }
@@ -981,5 +771,56 @@ h1:hover{
   70%, 100% {
     transform: translateY(8em);
     animation-timing-function: cubic-bezier(.19,1,.7,1);
+  }
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-8em);
+    -webkit-animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+  }
+  15% {
+    -webkit-transform: translateY(8em);
+    -webkit-animation-timing-function: cubic-bezier(.19,1,.7,1);
+  }
+  25% {
+    -webkit-transform: translateY(-4em);
+    -webkit-animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+  }
+  32.5% {
+    -webkit-transform: translateY(8em);
+    -webkit-animation-timing-function: cubic-bezier(.19,1,.7,1);
+  }
+  40% {
+    -webkit-transform: translateY(0em);
+    -webkit-animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+  }
+  45% {
+    -webkit-transform: translateY(8em);
+    -webkit-animation-timing-function: cubic-bezier(.19,1,.7,1);
+  }
+  50% {
+    -webkit-transform: translateY(3em);
+    -webkit-animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+  }
+  56% {
+    -webkit-transform: translateY(8em);
+    -webkit-animation-timing-function: cubic-bezier(.19,1,.7,1);
+  }
+  60% {
+    -webkit-transform: translateY(6em);
+    -webkit-animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+  }
+  64% {
+    -webkit-transform: translateY(8em);
+    -webkit-animation-timing-function: cubic-bezier(.19,1,.7,1);
+  }
+  66% {
+    -webkit-transform: translateY(7.5em);
+    -webkit-animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+  }
+  70%, 100% {
+    -webkit-transform: translateY(8em);
+    -webkit-animation-timing-function: cubic-bezier(.19,1,.7,1);
   }
 }
