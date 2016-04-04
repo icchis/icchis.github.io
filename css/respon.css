@@ -17,6 +17,11 @@ h1:hover{
 #c_third a:hover {
 	text-decoration: none;
 }
+iframe {
+	border: none;
+	background: none;
+	width: 100%;
+}
 .twitter {
   display: block;
   margin: 5rem auto;
